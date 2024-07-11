@@ -36,4 +36,4 @@ def process_frame():
     return jsonify({'image': base64.b64encode(jpeg).decode('utf-8')})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()

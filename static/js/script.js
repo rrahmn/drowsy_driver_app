@@ -33,5 +33,5 @@ document.addEventListener('DOMContentLoaded', function () {
             img.src = 'data:image/jpeg;base64,' + data.image;
         })
         .catch(console.error);
-    }, 120);  // Adjust as necessary for frame rate
+    }, 120);  // Frame rate
 });
